@@ -34,7 +34,7 @@ You can also right-click on `index.html` and open with your browser.
 
 ## 📸 Project Screenshots
 
-![Screenshot](./images/screenshot.webp)
+![Screenshot](https://i.imgur.com/XyLMLUD.png)
 
 ## 🔧 Technologies Used
 
