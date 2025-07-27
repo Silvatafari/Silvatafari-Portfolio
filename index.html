@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Olayinka (Silvatafari) | Web Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Olayinka, aka Silvatafari. Front-end web developer specializing in HTML, CSS, and JavaScript. View projects, resume, and contact.">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet"/>
+  <link rel="icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body class="dark">
+
+  <div class="page-wrapper">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox" />
+    <nav class="navbar">
+      <label for="menu-toggle" class="menu-icon" aria-label="Toggle navigation">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </label>
+      <ul class="nav-links">
+        <li><a href="#hero-section" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#project-section" class="nav-link">Work</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="welcome-section" class="hero fade-in">
+      <div class="hero-content">
+        <h1>Welcome to My Portfolio</h1>
+         <p class="typed-text"><span class="cursor">|</span></p>
+        <p>Web Developer | Designer | Problem Solver</p>
+        <a href="#project-section" class="cta-button">View My Work</a>
+      </div>
+    </section>
+   <section id="about" class="about-section">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="images/profile.webp" alt="Silvatafari Portrait" />
+    </div>
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>Hey, I'm <strong>Olayinka</strong> — also known as <strong>Silvatafari</strong>.</p>
+      <p>I specialize in <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, and I'm learning <strong>React</strong> and <strong>Python</strong>.</p>
+      <p>Let’s build something great together!</p>
+      <a href="resume.pdf" download class="btn resume-btn">
+        <i class="fas fa-download"></i> Download Resume
+      </a>
+    </div>
+  </div>
+</section>
+
+    <section id="project-section">
+      <h2 class="section-title">My Projects</h2>
+      <hr class="divider" />
+      <div class="projects-grid">
+        <!-- Magazine Project -->
+  <div class="flip-card delay-1">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <div class="image-wrapper">
+          <img src="images/magazine.webp" alt="Magazine Project Screenshot" />
+        </div>
+        <div class="project-info">
+          <p>Magazine</p>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <h3>Magazine Project</h3>
+        <p>Built with HTML & CSS</p>
+         <a href="https://silvatafari.github.io/Magazine/" target="_blank" rel="noopener">
+          <i class="fas fa-external-link-alt"></i> Live Preview
+        </a>
+        <a href="https://github.com/Silvatafari/Magazine" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i> View Code
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Cafe Menu Project -->
+  <div class="flip-card delay-2">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <div class="image-wrapper">
+          <img src="images/cafemenu.webp" alt="Cafe Menu Project Screenshot" />
+        </div>
+        <div class="project-info">
+          <p>Cafe Menu</p>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <h3>Cafe Menu</h3>
+        <p>HTML & CSS</p>
+        <a href="https://silvatafari.github.io/Cafe-menu/" target="_blank" rel="noopener">
+          <i class="fas fa-external-link-alt"></i> Live Preview</a>
+        <a href="https://github.com/Silvatafari/Cafe-menu" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i> View Code</a>
+      </div>
+    </div>
+  </div>
+  <!-- City Skyline Project -->
+  <div class="flip-card delay-3">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <div class="image-wrapper">
+          <img src="images/cityskyline.webp" alt="City Skyline Project Screenshot" />
+        </div>
+        <div class="project-info">
+          <p>City Skyline</p>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <h3>City Skyline</h3>
+        <p>CSS Grid & Flexbox</p>
+        <a href="https://silvatafari.github.io/City-Skyline/" target="_blank" rel="noopener">
+          <i class="fas fa-external-link-alt"></i> Live Preview</a>
+        <a href="https://github.com/Silvatafari/City-Skyline" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i> View Code</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Flipping Card Project -->
+ <div class="flip-card delay-4">
+   <div class="flip-card-inner">
+     <div class="flip-card-front">
+       <div class="image-wrapper">
+         <img src="images/flippingcard.webp" alt="Flipping Card Project Screenshot" />
+       </div>
+       <div class="project-info">
+         <p>Flipping Card</p>
+       </div>
+     </div>
+     <div class="flip-card-back">
+       <h3>Flipping Card</h3>
+       <p>HTML & CSS</p>
+       <a href="https://silvatafari.github.io/Flipping-Card/" target="_blank" rel="noopener">
+         <i class="fas fa-external-link-alt"></i> Live Preview</a>
+       <a href="https://github.com/Silvatafari/Flipping-Card" target="_blank" rel="noopener">
+         <i class="fab fa-github"></i> View Code</a>
+     </div>
+   </div>
+ </div>
+
+      </div>
+    </section>
+    <section id="contact" class="contact-section fade-in delay-2">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/mjkrnjwp" method="POST" onsubmit="showThankYou(event)">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Your Name" required />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="you@example.com" required />
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="5" placeholder="Write your message..." required></textarea>
+        <input type="text" name="_gotcha" class="hidden-field" aria-hidden="true" />
+        <button type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+      </form>
+      <p class="email-note">Or find me on <a href="https://github.com/Silvatafari" target="_blank" rel="noopener">GitHub</a></p>
+    </section>
+      <footer class="site-footer">
+        <div class="footer-content">
+          <p>&copy; 2025 Book Library App. All rights reserved.</p>
+          <p>
+            Created by <strong>Silvatafari</strong> •
+            <a href="mailto:Alvin.jones53@yahoo.com">
+              <i class="fas fa-envelope"></i> Email</a> •
+            <a href="https://github.com/Silvatafari" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i> GitHub</a> •
+            <a href="https://www.freecodecamp.org/Silvatafari" target="_blank" rel="noopener">
+              <i class="fab fa-free-code-camp"></i> freeCodeCamp</a> •
+            <a href="#contact"><i class="fas fa-paper-plane"></i> Contact Form</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+  <button id="scrollToTopBtn" title="Go to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+  function showThankYou(e) {
+    e.preventDefault();
+    const form = e.target;
+    const formData = new FormData(form);
+
+    fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    }).then(response => {
+      if (response.ok) {
+        form.innerHTML = `
+          <div class="thank-you-message">
+            <i class="fas fa-check-circle"></i>
+            <h3>Thank you!</h3>
+            <p>Your message has been sent successfully.</p>
+          </div>`;
+      }
+    });
+  }
+</script>
+
+<style>
+  .thank-you-message {
+    text-align: center;
+    padding: 2rem;
+    animation: fadeIn 1s ease;
+  }
+
+  .thank-you-message i {
+    color: green;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+</style>
+
+</body>
+</html>
